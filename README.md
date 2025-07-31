@@ -1,6 +1,10 @@
-# Schipani AI Assistant 🤖
+# Schipani AI Assistant 🤖 [WORK IN PROGRESS - NEEDS HELP!]
+
+⚠️ **This project is currently buggy and needs contributors to help fix critical issues!**
 
 A multilingual RAG-based chatbot for Schipani, an Italian furniture and door company. Built with Flask, Ollama, and FAISS vector store for intelligent customer support.
+
+🚨 **CURRENT STATUS: PARTIALLY WORKING - MAJOR BUGS NEED FIXING**
 
 ## 🏢 About
 
@@ -11,14 +15,25 @@ Schipani AI Assistant serves as a virtual customer service representative for **
 - Product categories (SARA, VALENTINA, LINEA BUGNATA, LINEA ALVIN-SOFIA, etc.)
 - Technical specifications and pricing
 
-## ✨ Features
+## ✨ Features (Partially Working)
 
-- **🤖 RAG System**: Uses FAISS vector store with company knowledge base
-- **🌍 Multilingual**: Supports Italian, English, French, and Spanish
-- **⚡ Fast Startup**: Lazy loading for quick application start
-- **🎛️ Admin Panel**: System management and configuration interface
-- **💬 Chat Interface**: Real-time conversation with message history
-- **🏗️ Modular Design**: Clean separation of concerns with Flask architecture
+- **🤖 RAG System**: Uses FAISS vector store with company knowledge base ⚠️ *Buggy with Italian*
+- **🌍 Multilingual**: Supports Italian, English, French, and Spanish ⚠️ *Italian responses broken*
+- **⚡ Fast Startup**: Lazy loading for quick application start ✅ *Works*
+- **🎛️ Admin Panel**: System management and configuration interface ✅ *Works*
+- **💬 Chat Interface**: Real-time conversation with message history ⚠️ *Very slow (20+ sec)*
+- **🏗️ Modular Design**: Clean separation of concerns with Flask architecture ✅ *Works*
+
+## 🚨 CRITICAL ISSUES THAT NEED FIXING
+
+**This project currently has major bugs that make it unusable in production:**
+
+1. **🔴 BROKEN: Italian queries return "I don't know"** despite having the information
+2. **🔴 BROKEN: 20-30 second response times** (should be under 5 seconds)
+3. **🔴 BROKEN: RAG system inconsistent** - sometimes works, sometimes doesn't
+4. **🟡 Basic UI** - needs significant improvements
+
+**We desperately need contributors to help fix these issues!**
 
 ## 🛠️ Tech Stack
 
