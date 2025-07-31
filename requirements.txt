@@ -1,0 +1,30 @@
+# Core Framework
+flask
+
+# LangChain and AI/ML
+langchain
+langchain-huggingface
+langchain-community
+
+# Vector Store and Embeddings
+faiss-cpu
+sentence-transformers
+
+# Transformers and ML
+transformers
+torch
+accelerate
+
+# Text Processing
+pypdf
+python-docx
+langdetect
+
+# Utilities
+numpy
+pandas
+python-dotenv
+flask-cors
+
+# Optional: For better performance
+optimum
