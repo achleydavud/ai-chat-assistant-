@@ -15,7 +15,7 @@ Thumbs.db  # Windows
 .vscode/
 .idea/
 
-# Build output (if you're compiling stuff)
+# Build output
 dist/
 build/
 
@@ -32,10 +32,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
 
 # Logs
 *.log
