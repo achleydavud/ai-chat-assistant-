@@ -207,6 +207,13 @@ We welcome contributions! Here's how you can help:
 
 - **Email**: achleydavud@gmail.com
 
+- ## 🤝 Contributions Welcome!
+
+Want to improve this AI based chat or suggest features? Fork away, submit pull requests, or open issues.  
+This project is open for learning, tinkering, and creative collaboration — but **not for commercial use**.
+
+If you're interested in using it professionally, let’s talk!
+
 ## 🙏 Acknowledgments
 
 - **Ollama Team** for the excellent LLM framework
