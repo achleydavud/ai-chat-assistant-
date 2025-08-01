@@ -1,3 +1,29 @@
+# Dependency folders
+node_modules/
+
+# Sensitive files
+.env
+
+# OS clutter
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Log files
+*.log
+
+# IDE/editor junk
+.vscode/
+.idea/
+
+# Build output (if you're compiling stuff)
+dist/
+build/
+
+# Optional: system-specific folders
+npm-debug.log*
+yarn-debug.log*
+*.swp
+
 # Large data files
 data/
 venv/
